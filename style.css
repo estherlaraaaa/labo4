@@ -1,0 +1,176 @@
+:root {
+    box-sizing: border-box;
+    font-size: calc(0.5em + 1vw);
+}
+
+*, 
+::before, 
+::after {
+    box-sizing: inherit;
+}
+
+*{
+    margin: 0px;
+}
+.wrap{
+    margin: 0px 15px;
+}
+
+p{
+    text-align: justify;
+    font-family: 'Roboto', sans-serif;
+}
+h3{
+    text-transform: uppercase;
+}
+h4{
+    text-transform: lowercase;
+}
+
+header{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom:#f56a6a solid 5px;
+    color: #c9cccf;
+    font-family: 'Ubuntu', sans-serif;
+}
+header .head_body h1> span{
+    color: black;
+}
+
+header h1{
+    padding: 0.5em;
+}
+
+
+.flex-container-logos li{
+    color: black;   
+    padding: 1em;
+}
+
+.flex-container-logos ul{
+    width: 50%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+section{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-bottom: #c9cccf solid 5px;
+}
+section .section1{
+    padding: 2em;
+    
+}
+section .section1>.botton{
+    margin: 0px auto;
+    
+}
+section .pic{
+    padding: 1.5em;
+    
+}
+section .pic>img{
+    border-radius: 0.375em;
+    display: block;
+    
+}
+
+section .section1 h3{
+    padding: 0.6em 0px;
+    color: #c9cccf;
+}
+
+section .section1 p {
+    padding: 0.5em 0px;
+    color: #c9cccf;
+}
+
+.button{
+    border: 2px solid #f56a6a; 
+    padding: 1.5em;
+    border-radius: 6px;
+    color: #f56a6a;
+    background-color: white;
+    font-size: 75%;
+    width: 40%;
+}
+.button:hover{
+    background-color: #f56a6a;
+    color: white;
+    cursor: pointer;
+    border: 2px solid #f56a6a;   
+}
+footer{
+    width: 100%;
+}
+.footer{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer .column1{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+.footer .column2{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+footer>.header{
+    width: 10%;
+    padding: 1em;
+    border-bottom: #f56a6a solid 5px;  
+     
+}
+.footer .row1{
+    padding: 10px;
+}
+.footer .row2{
+    padding: 10px;
+}
+footer .row1 .sub{
+    display: flex;
+    flex-direction: row;
+}
+footer .row2 .sub{
+    display: flex;
+    flex-direction: row;
+}
+footer .row2 .sub i{
+    color: #f56a6a;
+    padding: 0.5em;
+    font-size: 2.5em;
+}
+footer .row1 .sub i{
+    color:#f56a6a;
+    padding: 0.5em;
+    font-size: 2.5em;
+}
+
+footer .row1 .sub p{
+    font-family: 'Roboto', sans-serif;
+    padding: 0.5em 0px;
+    color:#99a0a6;
+}
+footer .row2 .sub p{
+    font-family: 'Roboto', sans-serif;
+    padding: 0.5em 0px;
+    color:#99a0a6;
+}
+footer .row1 .sub h3{
+    font-family: 'Open Sans', sans-serif;
+}
+footer .row2 .sub h3{
+    font-family: 'Open Sans', sans-serif;
+}
